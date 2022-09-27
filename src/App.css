@@ -1,38 +1,76 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@font-face {
+  font-family: "Samim";
+  src: url("./assets/font/Samim-WOL.woff2");
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  @font-face {
+  font-family: "Samim-Bold";
+  src: url("./assets/font/Samim-Bold-WOL.woff2");
   }
-  to {
-    transform: rotate(360deg);
+  
+  .colorFiroz{
+    color: #66c5d7;
   }
-}
+  .boxshodow1{
+         
+    padding: 30px ;
+   
+    /* box-shadow: 0px 5px 10px 0px rgba(210, 205, 205, 0.5); */
+    box-shadow: 0 2px 5px #dddddd;
+    border-radius: 20px;
+    margin: 20px;
+    transition: all ease 0.2s;
+    background-color: #fafafa;
+  
+  }
+  
+  *{
+    box-sizing: border-box;
+    font-family: "Samim", sans-serif !important;
+  }
+  
+  body .bold{
+    font-family: "Samim-Bold", sans-serif !important;
+  }
+  
+  .App {
+    text-align: center;
+  }
+  
+  .linkAdmin {
+    text-decoration: none;
+    color:  inherit;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  ::-webkit-scrollbar {
+      width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+      background: #f1f1f1;
+  }
+  ::-webkit-scrollbar-thumb {
+      background: rgb(221, 179, 213);
+  }
+  ::-webkit-scrollbar-thumb:hover {
+      background: rgb(221, 179, 213);
+  }
+  
+  body {
+      scrollbar-width: thin;          /* "auto" or "thin" */
+      scrollbar-color: #888 #f1f1f1;   /* scroll thumb and track */
+  }

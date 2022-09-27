@@ -1,0 +1,64 @@
+.profileFieldContainer {
+	margin: 20px 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	max-width: 900px !important;
+}
+
+.profileInputContainer {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.profileInput {
+	margin-left: 20px !important;
+	margin-bottom: 15px !important;
+	margin-top: 0 !important;
+}
+
+.profileInput .MuiFormControl-root {
+	margin-bottom: 0 !important;
+	margin-top: 0 !important;
+}
+
+.profileInput:last-child {
+	margin-left: 0 !important;
+}
+
+.profileButton {
+	min-width: 140px !important;
+}
+
+.profilePicture {
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	background-size: cover;
+	background-position: center center;
+	background-color: #ffffff;
+	background-image: url("../../../assets/image/png/user.png");
+	box-shadow: 0 2px 5px #dddddd;
+}
+
+@media only screen and (max-width: 900px) {
+	.profileButton {
+		min-width: 100% !important;
+		flex-basis: 100% !important;
+	}
+
+	.profileInputContainer {
+		flex-wrap: wrap;
+	}
+
+	.profileInput {
+		margin-left: 0 !important;
+		flex-basis: 100%;
+	}
+}

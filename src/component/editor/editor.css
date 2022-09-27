@@ -1,0 +1,7 @@
+.quill .ql-toolbar:first-child{
+    display: none!important;
+}
+
+.quill .ql-editor{
+    min-height: 150px!important;
+}

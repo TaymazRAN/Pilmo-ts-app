@@ -1,0 +1,125 @@
+.widthFix {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+	max-width: 1100px;
+}
+
+.passwordIcon {
+	color: #49dee9;
+}
+
+.loginForm {
+	flex: 3;
+}
+
+.signButtonContainer {
+	flex: 2;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+.signButton {
+	text-decoration: none;
+}
+
+.signArrow {
+	font-size: 40px !important;
+	color: #49dee9;
+	margin-left: 30px;
+}
+
+.loginTitle {
+	margin-bottom: 15px;
+	font-size: 18px;
+	color: #1565c0;
+}
+
+.formInput {
+	width: 100%;
+	margin-bottom: 20px !important;
+	direction: rtl !important;
+}
+
+.formInput:last-child {
+	margin-bottom: 0 !important;
+}
+
+.loginFooter {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 10px;
+}
+
+.formRadio {
+	margin-right: 0 !important;
+	margin-left: 0 !important;
+}
+
+.loginButtonContainer {
+	margin-top: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.loginButton {
+	text-decoration: none;
+	color: inherit;
+}
+
+@media only screen and (max-width: 900px) {
+	.widthFix {
+		flex-direction: column-reverse;
+	}
+
+	.loginForm {
+		flex: unset;
+		margin-bottom: 20px;
+	}
+
+	.signButtonContainer {
+		flex: unset;
+	}
+
+	body .signArrow {
+		display: none;
+	}
+}
+
+.widthFix.signup {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+	max-width: 700px;
+}
+
+.formInput.signup {
+	flex-basis: 48%;
+	margin-bottom: 0 !important;
+}
+
+.formInputContainer.signup {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 700px) {
+	.formInput.signup {
+		flex-basis: 100%;
+		margin-bottom: 15px !important;
+	}
+
+	.formInputContainer.signup {
+		margin-bottom: 0;
+		flex-wrap: wrap;
+	}
+}

@@ -1,0 +1,32 @@
+.widthFix.signup{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 700px;
+}
+
+.formInput.signup{
+    flex-basis: 48%;
+    margin-bottom: 0!important;
+}
+
+.formInputContainer.signup{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 700px) {
+    .formInput.signup{
+    flex-basis: 100%;
+    margin-bottom: 15px!important;
+}
+
+.formInputContainer.signup{
+    margin-bottom: 0;
+    flex-wrap: wrap;
+}
+}

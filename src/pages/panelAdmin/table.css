@@ -1,0 +1,92 @@
+.dataGrid {
+	padding: 0;
+}
+
+.dataGridCell {
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+
+.gridButton {
+	margin-right: 15px !important;
+}
+
+.gridButton:first-child {
+	margin-right: 0 !important;
+}
+
+.gridIcon {
+	margin-left: 7px;
+	font-size: 22px;
+}
+
+.MuiTablePagination-actions {
+	direction: ltr;
+}
+
+.topButtonContainer {
+	display: flex;
+	align-items: center;
+	justify-content: right;
+	margin-bottom: 15px;
+}
+
+.topButton {
+	margin-right: 15px;
+}
+
+.topButtonIcon {
+	font-size: 20px;
+	margin-right: 5px;
+}
+
+.percentageContainer {
+	position: relative;
+	width: 100%;
+	height: 30px;
+	border-radius: 8px;
+	box-shadow: 0 2px 5px #dddddd;
+	overflow: hidden;
+	z-index: 1;
+}
+
+.percentageProgress {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	background-color: #06b800;
+	z-index: 2;
+}
+
+.percentageText {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	line-height: 30px;
+	text-align: center;
+	color: #222222;
+	z-index: 3;
+}
+
+.textBox {
+	margin: 10px 0;
+	font-size: 15px;
+}
+
+.textBoxItem {
+	padding: 5px 10px;
+	background-color: transparent;
+	border-radius: 10px;
+	font-size: 15px;
+	transition: 200ms;
+	margin: 5px;
+	color: #444444;
+}
+
+.textBoxItem:hover {
+	background-color: #e6effb;
+}

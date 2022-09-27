@@ -1,0 +1,80 @@
+.topBar{
+    width: 100%;
+    height: 70px;
+    z-index: 1000;
+    margin-top: 10px;
+}
+
+.topBarWrapper{
+    height: 100%;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoAdmin{
+    display: inline-block;
+    width: 90px;
+    height: 60px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('../../assets/image/png/logo.png');
+}
+
+.topRight{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profileNameTag {
+    padding: 5px 20px 5px 5px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #222222;
+    box-shadow: 0 2px 5px #dddddd;
+    background-color: #ffffff;
+    border-radius: 50px;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.topBarIconContainer{
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    margin-left: 10px;
+    color: #333333;
+}
+
+.iconBadge{
+    position: absolute;
+    top: 5px;
+    right: -5px;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+}
+
+.avatarPicture{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 20px;
+    background-size: cover;
+    background-position: top center;
+    background-color: #ffffff;
+    background-image: url('../../assets/image/png/user.png');
+    box-shadow: 0 2px 5px #dddddd;
+}

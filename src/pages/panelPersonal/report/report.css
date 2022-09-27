@@ -1,0 +1,172 @@
+.accordionReport {
+	position: relative !important;
+	border-radius: 15px !important;
+	margin-bottom: 70px !important;
+	background-color: #eeeeee !important;
+	padding: 20px 30px !important;
+}
+
+.reportPicture {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	margin-right: 20px;
+	margin-left: 40px;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url("../../../assets/image/svg/report.svg");
+	box-shadow: 0 2px 5px #dddddd;
+}
+
+.reportName {
+	font-size: 1rem;
+	color: #222222;
+}
+
+.reportExtra {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.reportContainer {
+	flex: 2;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+.manuscript {
+	font-size: 16px;
+	width: 100%;
+	margin-bottom: 30px;
+	text-align: justify;
+	text-align-last: right;
+}
+
+.reportRow {
+	display: flex;
+	flex-direction: row-reverse;
+	padding: 10px 20px;
+	border-radius: 15px;
+	box-shadow: 0 2px 5px #cccccc;
+	background-color: #f2f2f2;
+	/* align-items: center;
+	justify-content: center; */
+}
+
+.reportBit {
+	flex: 1;
+	height: 300px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.spiderChartContainer {
+	flex: 2;
+	aspect-ratio: 1 / 1;
+	margin-right: 80px;
+	margin-left: 50px;
+	direction: ltr;
+}
+
+.recharts-surface {
+	overflow: visible !important;
+}
+
+.percentContainer {
+	flex: 1;
+}
+
+.reportPercent{
+	display: inline-block;
+	line-height: initial !important;
+	padding: 7px 12px;
+	border-radius: 26px;
+	margin-left: 15px;
+	background-color: #49DEE9;
+	color: #ffffff;
+	font-size: 15px;
+	font-weight: 700;
+	box-shadow: 0 2px 5px #dddddd;
+}
+
+.areaChartContainer {
+	width: 100%;
+	aspect-ratio: 4 / 1;
+	/* background-color: #ffffff;
+	border-radius: 15px;
+	box-shadow: 0 2px 5px #dddddd; */
+	/* padding: 10px 0; */
+}
+
+.recharts-text tspan{
+  font-family: "Samim-Bold", sans-serif !important;
+  font-size: 14px;
+  /* display: inline-block;
+  padding: 5px 12px;
+  border-radius: 17px;
+  background-color: #f2f2f2;
+  box-shadow: 0 2px 5px #cccccc; */
+}
+
+.reportStatusContainer {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+
+.reportStatus {
+	padding: 4px 10px;
+	border-radius: 20px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 15px;
+	color: #222222;
+}
+
+.reportStatus.good {
+	border: 2px solid #51ed03;
+	background-color: rgba(81, 237, 2, 0.2);
+}
+
+.reportStatus.normal {
+	border: 2px solid #ede103;
+	background-color: rgba(237, 226, 2, 0.2);
+}
+
+.reportStatus.bad {
+	border: 2px solid #ed0303;
+	background-color: rgba(237, 3, 3, 0.2);
+}
+
+.reportStatusIcon {
+	margin-left: 8px;
+}
+
+.reportStatus.good .reportStatusIcon {
+	color: #51ed03;
+}
+
+.reportStatus.normal .reportStatusIcon {
+	color: #ede103;
+}
+
+.reportStatus.bad .reportStatusIcon {
+	color: #ed0303;
+}
+
+@media only screen and (max-width: 800px) {
+	.accordionReport {
+		padding: 15px !important;
+	}
+}

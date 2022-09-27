@@ -1,0 +1,25 @@
+.downloadConatiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+	background-color: #eeeeee;
+	box-shadow: 0 2px 5px #dddddd;
+    padding: 20px 30px;
+    margin-bottom: 30px;
+}
+
+.downloadConatiner:last-child{
+    margin-bottom: 0;
+}
+
+.downloadProgress{
+    width: 50%;
+    max-width: 700px;
+    min-width: 100px;
+}
+
+.downloadName{
+    font-size: 1rem;
+    color: #222222;
+}

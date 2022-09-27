@@ -1,0 +1,23 @@
+.carousel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.carouselPicture{
+    width: 100%;
+    max-width: 1100px;
+    padding-top: 30%;
+    background-color: #fafafa;
+    box-shadow: 0 2px 5px #dddddd;
+    border-radius: 15px;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("../../assets/image/svg/carousel.svg");
+}
+
+.hello{
+    padding: 20px;
+}

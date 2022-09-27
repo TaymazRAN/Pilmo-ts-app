@@ -1,0 +1,5 @@
+{
+  
+  "AddressApi": "http://beta843.psyport.agahpadidar.com/api",
+  "localApi": "http://localhost:3000" 
+}

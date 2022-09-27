@@ -1,0 +1,53 @@
+.react-confirm-alert-body {
+	padding: 20px !important;
+	text-align: center !important;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.react-confirm-alert-body::before {
+	content: "";
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	background-size: cover;
+	background-position: center center;
+	background-image: url("https://www.pngall.com/wp-content/uploads/8/Warning-PNG-Free-Image.png");
+	margin-bottom: 20px !important;
+}
+
+.confirmTestClass .react-confirm-alert-body::before {
+	background-image: url("https://cdn-icons-png.flaticon.com/512/1004/1004739.png");
+}
+
+.react-confirm-alert-body h1 {
+	text-align: center;
+	margin: 0 0 15px;
+	font-size: 22px;
+}
+
+.react-confirm-alert-button-group {
+	justify-content: center !important;
+}
+
+.react-confirm-alert-button-group > button:first-child {
+	background: transparent;
+	color: green;
+	border: 2px solid green;
+}
+
+.react-confirm-alert-button-group > button:last-child {
+	background: transparent;
+	color: red;
+	border: 2px solid red;
+}
+
+.react-confirm-alert-overlay {
+	background: rgba(44, 44, 44, 0.5);
+}
+
+.react-confirm-alert-body {
+	box-shadow: 0 3px 8px #777777 !important;
+}

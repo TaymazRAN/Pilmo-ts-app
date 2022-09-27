@@ -1,0 +1,37 @@
+.panel {
+	display: flex;
+	direction: rtl;
+	margin-top: 10px;
+}
+
+.page {
+	flex: 4;
+}
+
+.sidebar {
+	flex: 1;
+}
+
+.panelBox {
+	padding: 20px;
+	margin: 0 20px 10px;
+	border-radius: 15px;
+	transition: all ease 0.2s;
+	background-color: #fafafa;
+	box-shadow: 0 2px 5px #dddddd;
+	height: calc(100vh - 100px);
+	overflow-y: auto;
+}
+
+.mainPanelTitle {
+	font-size: 20px;
+	color: #49dee9;
+	margin-bottom: 20px;
+}
+
+.secondaryPanelTitle {
+	padding-right: 8px;
+	border-right: 3px solid #49dee9;
+	color: #222222;
+	margin: 20px 0 10px;
+}
