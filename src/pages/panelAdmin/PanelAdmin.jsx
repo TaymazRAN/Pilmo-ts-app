@@ -75,7 +75,7 @@ export default function PanelAdmin() {
     <>
       {user ? (
         <>
-          {" "}
+          {""}
           <Provider store={store}>
             <MenuTopAdmin />
             <div className="panel">
